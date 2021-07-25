@@ -1,0 +1,59 @@
+body {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.welcome,
+.discover,
+.find {
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: hidden;
+  opacity: 0.9;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+
+.welcome :hover,
+.discover :hover,
+.find :hover {
+  opacity: 1;
+}
+
+.welcome p,
+.discover p,
+.find p {
+  padding: 1em;
+  background-color: #363636;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.welcome {
+  background-image: url(../img/1.jpg);
+}
+
+.discover {
+  background-image: url(../img/2.jpg);
+}
+
+.find {
+  background-image: url(../img/3.jpg);
+}
+/*# sourceMappingURL=style.css.map */
